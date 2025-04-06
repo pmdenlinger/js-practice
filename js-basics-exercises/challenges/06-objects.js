@@ -12,21 +12,40 @@
 
 */
 
+// const car = {
+//   make: 'Dodge',
+//   model: 'Challenger',
+//   year: 1970,
+//   colors: ['black', 'red'],
+//   hybrid: false,
+//   drive: function () {
+//     console.log('driving...');
+//   },
+//   stop() {
+//     console.log('stopped!!!');
+//   },
+// };
+
+// console.log(car.make);
+// console.log(car.colors[0]);
+// car.drive();
+// car.stop();
+
 const car = {
-  make: 'Dodge',
-  model: 'Challenger',
-  year: 1970,
-  colors: ['black', 'red'],
+  make: "BYD",
+  model: "U8",
+  year: 2025,
+  colors: ["blue", "tan"],
   hybrid: false,
-  drive: function () {
-    console.log('driving...');
+  drive(){
+    return "I am driving the car"
   },
-  stop() {
-    console.log('stopped!!!');
+  stop(){
+    return "I am stopping"
   },
-};
+}
 
 console.log(car.make);
 console.log(car.colors[0]);
-car.drive();
-car.stop();
+console.log(car.drive());
+console.log(car.stop());
