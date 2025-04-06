@@ -10,8 +10,14 @@
 
 */
 
-const fruits = ['apple', 'banana', 'orange', 45];
+// const fruits = ['apple', 'banana', 'orange', 45];
 
+// const firstFruit = fruits[0];
+// fruits[3] = 'lemon';
+// console.log(firstFruit, fruits);
+
+const fruits = ['apple', 'pineapple', 'tomato', 'orange', 16];
+fruits[6] = 'avocado';
 const firstFruit = fruits[0];
-fruits[3] = 'lemon';
 console.log(firstFruit, fruits);
+
